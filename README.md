@@ -5,7 +5,7 @@ Custom Homebrew tap for installing Inquira on Apple Silicon macOS.
 ## Install
 
 ```bash
-brew tap adarsh9780/inquira https://github.com/adarsh9780/homebrew-inquira
+brew tap adarsh9780/inquira
 brew install --cask inquira
 ```
 
