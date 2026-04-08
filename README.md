@@ -12,11 +12,17 @@ brew install --cask inquira
 ## What This Tap Does
 
 - Installs the current Inquira macOS DMG through Homebrew Cask.
-- Applies a `postflight` quarantine removal step so early testers do not have to run `xattr` manually after install.
+- Leaves macOS quarantine handling explicit so users can review and approve that step themselves.
 
 ## Important Trust Note
 
 Inquira is currently distributed by a single developer without Apple code signing or notarization because the project does not yet have the funds to pay for the Apple Developer Program. This tap is a convenience installer, not a substitute for Apple trust signals.
+
+For the guided macOS install flow, use:
+
+```bash
+curl -fsSL https://inquiraai.com/install.sh | bash
+```
 
 If you prefer not to trust the distributed binary, build the app yourself from source:
 

@@ -10,9 +10,4 @@ cask "inquira" do
   depends_on arch: :arm64
 
   app "Inquira.app"
-
-  postflight do
-    system_command "/usr/bin/xattr",
-      args: ["-dr", "com.apple.quarantine", "#{appdir}/Inquira.app"]
-  end
 end
