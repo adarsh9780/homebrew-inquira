@@ -31,4 +31,4 @@ If you prefer not to trust the distributed binary, build the app yourself from s
 The current cask is generated from:
 
 - `Casks/inquira.rb`
-- version `0.5.30`
+- version `0.5.31`
