@@ -1,8 +1,8 @@
 cask "inquira" do
-  version "0.5.32"
-  sha256 "fcfbd06628772e02d52f69d1756d35616d8c89b80196857812505c9e563dfa21"
+  version "0.5.34"
+  sha256 "5c4ddd0ad79c7690d6300bc25148aeb9bc4568c534ad49afc5fb528227e1c21f"
 
-  url "https://downloads.inquiraai.com/v0.5.32/Inquira_0.5.32_aarch64.dmg"
+  url "https://downloads.inquiraai.com/v0.5.34/Inquira_0.5.34_aarch64.dmg"
   name "Inquira"
   desc "Local-first AI data analysis desktop app"
   homepage "https://inquiraai.com"
